@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+    .columns div{
+        background-color: gray;
+    }
+    .columns #column1{
+        flex: 1;
+        order: 1;
+        flex-basis: 100px;
+    }
+    
+    .columns #column2{
+        flex: 2;
+        order: 3;
+        flex-basis: 200px;
+    }
+    
+    .columns #column3{
+        flex: 1;
+        order: 2;
+        flex-basis: 100px;
+    }
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 10px;
+}
+.header{
+    font-size: 25pt;
+    text-align: center;
+    background-color: lightblue;
+    margin-bottom: 0;
+    padding-top: 0.3em;
+    height: 50px;
+}
+.menu div{
+    border-right: 1px black solid;
+    padding:0px 10px;
+    color: white;
+   position: relative;
+   padding-top: 0.6em;
+
+    
+}
+.menu{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: darkcyan;
+    height: 40px;
+    margin-top: 0;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    min-width: 200px;
+
+    
+}
+.columns #column1{
+    flex: 1;
+    order: 1;
+    background-color: rgba(55, 59, 59, 0.404);
+  
+    
+
+}
+.columns #column2{
+    flex: 2;
+    order: 2;
+    background-color: rgba(130, 138, 138, 0.404);
+
+}
+.columns #column3{
+    flex: 1;
+    order: 3;
+    background-color: rgba(153, 161, 161, 0.404);
+
+}
+.footer{
+    background-color: darkcyan;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 0.6em;
+}
