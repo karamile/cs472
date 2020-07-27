@@ -48,3 +48,7 @@ button {
 	margin: 5px;
 	border-radius: 5px;
   }
+  #validate{
+    right:0px;
+    position: fixed;
+}
