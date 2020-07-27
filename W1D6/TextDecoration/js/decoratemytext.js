@@ -17,14 +17,12 @@ function increaseFontSize() {
 function increaseFontSizeWithTimer() {
     if (timer === null) {
     timer=setInterval(increaseFontSize, 500);
-} else {
-    clearInterval(timer); // cancel the timer timer = null;
-    } 
+} 
 }
 /*
 setTimeout(increaseFontSizeWithTimer,300);*/
 function clearFontGrowth() {
-    clearInterval(increaseFontSizeWithTimer);
+    clearInterval(timer);
 }
 // increaseFontSizeWithTimer(500,clearFontGrowth);
 
