@@ -1,3 +1,13 @@
+window.onload = function(){
+const txtArea = document.getElementById("textArea");
+const btnDecorate = document.getElementById("click");
+let clearbtn = document.getElementById("clear");
+txtArea.onclick=increaseFontSize;
+btnDecorate.onclick=increaseFontSizeWithTimer;
+clearbtn.onclick=clearFontGrowth;
+// window.onload=increaseFontSize;
+
+};
 function increaseFontSize() {
     const txtArea = document.getElementById("textArea");
     let fontSize = parseInt(window.getComputedStyle(document.getElementById("textArea")).fontSize);
