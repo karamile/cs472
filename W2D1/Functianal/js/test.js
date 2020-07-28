@@ -9,25 +9,25 @@ describe(" Take an array and returns the sum of elements", function(){
 
 describe(" Take an array and returns the product of elements", function(){
     it(" the product of elements is", function(){
-        assert.equal(product([1, 2, 3, 4]),10);
+        assert.equal(multiply([1, 2, 3, 4]),24);
     });
     it(" the product of elements is", function(){
-        assert.equal(product([1, 2, 3, 4]),12);
+        assert.equal(multiply([1, 2, 3, 4]),26);
     });
 });
 
 describe("Take a string and return its reverse", function(){
-    it("" ,function(){
+    it(" There reverse string" ,function(){
      assert.equal(reverse("Emile"),"elimE");
     });
-    it("" ,function(){
+    it("There reverse string" ,function(){
      assert.equal(reverse("Gisele"),"eleGis");
     });
 });
 
 describe("Takes an array of strings and returns words longer than  a given length", function(){    
     it("Words longer than 5 letters are", function(){
-        assert.equal(filterLongWords(["Element", "li", "Iterating", "Chai"], 5), ["Element", "Iterating"]);
+        assert.equal(filterLongWords(["Element", "li", "Iterating", "Chai"], 5).toString(), ["Element", "Iterating"].toString());
     });  
     
     it("Words longer than 0 letters are", function(){
