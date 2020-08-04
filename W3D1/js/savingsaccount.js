@@ -22,7 +22,7 @@ class SavingAccount extends Account{
 //     return `Account ${this._number}: balance ${this._balance}`;
 //   }
 toString(){
-    return "SavingsAccount 1: balance: " + this._balance + " interest: " + this._interest
+    return "SavingsAccount: balance: " + this._balance + " interest: " + this._interest
  }
    
 }
