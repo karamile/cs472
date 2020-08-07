@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "maven.terminal.useJavaHome": true,
+    "maven.pomfile.autoUpdateEffectivePOM": true,
+    "maven.executable.path": "maven.executable.preferMavenWrapper",
+    "maven.executable.options": "maven.executable.preferMavenWrapper",
+    "maven.excludedFolders": [
+    
+        "**/.*",
+        "**/node_modules",
+        "**/target",
+        "**/bin"
+    ]
+}
