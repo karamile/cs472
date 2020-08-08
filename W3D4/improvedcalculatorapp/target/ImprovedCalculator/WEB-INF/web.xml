@@ -5,7 +5,8 @@
          version="4.0">
     <servlet>
         <servlet-name>ImprovedCalculator</servlet-name>
-        <servlet-class>edu.miu.c472.ImprovedCalculator</servlet-class>
+<!--        <servlet-class>edu.miu.c472.ImprovedCalculator</servlet-class>-->
+        <servlet-class>edu.miu.c472.Quiz</servlet-class>
     </servlet>
 
     <servlet-mapping>
