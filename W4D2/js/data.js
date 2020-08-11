@@ -3,7 +3,7 @@ $(function () {
   $('#fetch').click(fetchInformation);
   $('#postList').click('comment', fetchComments);
   function fetchInformation() {
-    user = $('#userId').val();
+    
     $.get('https://jsonplaceholder.typicode.com/users', { id: user }).done(
       showInformation
     );
@@ -42,3 +42,4 @@ $(function () {
     });
   }
 });
+
